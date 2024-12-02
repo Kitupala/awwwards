@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# Zentry
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image_rounded](https://github.com/user-attachments/assets/5fa2c7d5-40b1-46e4-b246-e324577d704a)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🤖 Introduction
+Visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling. Luxurious, modern feel, focusing on engaging UI/UX and smooth responsiveness.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ⚙️ Tech Stack
+* React.js
+* Tailwind CSS
+* GSAP
 
-- Configure the top-level `parserOptions` property like this:
+## 🔋 Features
+👉 Scroll-Based Animations: Dynamic animations triggered by scrolling for a more engaging user experience.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+👉 Clip Path Shaped Animations: Unique geometric transitions using CSS clip-paths to create visually stunning effects.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+👉 3D Hover Effects: Interactive 3D transformations that respond to user interactions for a modern feel.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+👉 Video Transitions: Seamlessly integrated video elements to enhance storytelling and flow.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+👉 Smooth UI/UX: Polished interfaces with buttery-smooth interactions for an intuitive user journey.
+
+👉 Completely Responsive: Flawless adaptation across all devices, ensuring a consistent experience.
+
+
+
+
+## ⚠️ Disclaimer
+All design credits go to [Zentry](https://zentry.com/).
+This project uses some assets and fonts from Zentry purely for educational and demonstration purposes. All rights to these assets and fonts belong to their respective owners. If you plan to use this project commercially or publicly, please replace these assets and fonts with ones you own or have permission to use. This project is not affiliated with or endorsed by Zentry.
