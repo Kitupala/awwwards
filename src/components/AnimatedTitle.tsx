@@ -8,7 +8,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 type AnimatedTitleProps = {
   title: string;
-  sectionId: string;
+  sectionId?: string;
   containerClass?: string;
 };
 
